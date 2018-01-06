@@ -6,10 +6,10 @@
 </head>
 <body>
 
-<h1>Data Binding</h1>
+V Model
   <div id="app">
     <input type="text" v-model="message">
-    {{ message }}
+    This is {{ message }}
   </div>
   <script>
     var app = new Vue({
