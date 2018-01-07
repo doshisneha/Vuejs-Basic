@@ -6,10 +6,10 @@
 </head>
 <body>
 
-V Model
+<h1>V Model</h1>
   <div id="app">
     <input type="text" v-model="message">
-    This is {{ message }}
+    Value Of Input Is {{ message }}
   </div>
   <script>
     var app = new Vue({
