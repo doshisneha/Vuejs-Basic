@@ -9,7 +9,7 @@
 <h1>V Model</h1>
   <div id="app">
     <input type="text" v-model="message">
-    Value of input is {{ message }}
+      <span>Value of input is {{ message }}</span>
   </div>
   <script>
     var app = new Vue({
