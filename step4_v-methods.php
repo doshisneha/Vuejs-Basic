@@ -14,13 +14,13 @@
     </ul>
 
     <h3>on click</h3>
-  <input type="text" id="input" v-model="newname">
+  <input type="text" v-model="newname">
  
 
     <button v-on:click="addname">ADD</button> OR <button @click="addname">ADD</button>
 
    <h3>on key up</h3>
-    <input type="text" id="input" v-model="newnames" v-on:keyup="addnames">
+    <input type="text"  v-model="newnames" v-on:keyup="addnames">
     OR <input type="text" id="input" v-model="newnames" @keyup="addnames">
   </div>
   <script>
