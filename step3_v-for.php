@@ -16,7 +16,7 @@
     OR
     
     <ul>
-        <li v-for="name in names" v-text="name"></li>
+        <li v-for="text in todo" v-text="text"></li>
     </ul>
 
   </div>
@@ -24,7 +24,8 @@
     var app = new Vue({
       el: '#app',
       data: {
-        names: ["abc","xyz","test"]
+        names: ["abc","xyz","test"],
+        todo: ["abc","xyz","test"]
       }
     })
 
