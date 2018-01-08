@@ -19,6 +19,12 @@
         <li v-for="text in todo" v-text="text"></li>
     </ul>
 
+    OR
+
+    <ul v-for="text in todo">
+        <li  v-text="text"></li>
+    </ul>
+
   </div>
   <script>
     var app = new Vue({
