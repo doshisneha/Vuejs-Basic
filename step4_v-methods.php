@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>V-Methos</title>
+  <title>V-Methods</title>
   <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
 </head>
 <body>
