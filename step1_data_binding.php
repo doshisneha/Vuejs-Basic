@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1> Basic Data Binding</h1>
+<h1>DATA BINDING</h1>
   <div id="app">
     Hi  {{ message }}
   </div>
