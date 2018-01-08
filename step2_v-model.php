@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>V Model</title>
+  <title>V-Model</title>
   <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
 </head>
 <body>
@@ -9,7 +9,7 @@
 <h1>V Model</h1>
   <div id="app">
     <input type="text" v-model="message">
-    Value Of Input Is {{ message }}
+    Value of input is {{ message }}
   </div>
   <script>
     var app = new Vue({
