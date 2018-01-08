@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>V Methos</title>
+  <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+</head>
+<body>
+
+<h1>V Methods</h1>
+  <div id="app">
+    
+    <ul>
+        <li v-for="name in names" v-text="name"></li>
+    </ul>
+
+    <h3>on click</h3>
+  <input type="text" id="input" v-model="newname">
+ 
+
+    <button v-on:click="addname">ADD</button> OR <button @click="addname">ADD</button>
+
+   <h3>on key up</h3>
+    <input type="text" id="input" v-model="newnames" v-on:keyup="addnames">
+    OR <input type="text" id="input" v-model="newnames" @keyup="addnames">
+  </div>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        newname : '',
+        newnames : '',
+        names: ["abc","xyz","test"],
+      },
+      methods: {
+        addname: function () {
+        
+         this.names.push(this.newname);
+         this.newname='';
+        },
+         addnames: function () {
+        
+        this.names.push(this.newnames);
+        this.newnames='';
+       },
+
+      },
+    })
+
+  </script>
+
+
+
+  </body>
+  </html>
