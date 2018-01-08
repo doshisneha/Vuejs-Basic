@@ -55,20 +55,18 @@
             reversedMessage: function () 
             {
              // `this` points to the vm instance
-             return this.message.split('').reverse().join('');
-            },
+            return this.message.split('').reverse().join('');
+             },
 
-             
-           incompletetasks() 
+             incompletetasks() 
              {
                return this.tasks.filter(task => ! task.computed);
-             } ,
-
-             completetasks() 
+            },
+            
+            completetasks() 
              {
-               return this.tasks.filter(task => task.computed);
-             }
-
+               return this.tasks.filter(task =>  task.computed);
+            } 
          }
     })
 
