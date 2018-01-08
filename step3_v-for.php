@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>V For</h1>
+<h1>V For - LISTS</h1>
   <div id="app">
     <ul>
         <li v-for="name in names">{{ name }}</li>
