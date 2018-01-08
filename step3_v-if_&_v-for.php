@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>V-For</title>
+  <title>V - If & V-For</title>
   <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
 </head>
 <body>
 
-<h1>V For - LISTS</h1>
+<h1>V - If & V For - LISTS</h1>
+
+
   <div id="app">
+
+  <span v-if="seen">Now you see me</span>
+
     <ul>
         <li v-for="name in names">{{ name }}</li>
     </ul>
@@ -31,7 +36,8 @@
       el: '#app',
       data: {
         names: ["abc","xyz","test"],
-        todo: ["abc","xyz","test"]
+        todo: ["abc","xyz","test"],
+        seen: true
       }
     })
 
