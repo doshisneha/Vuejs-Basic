@@ -6,11 +6,13 @@
 </head>
 <body>
 
-<h1>V Bind - Attribute and Class Binding </h1>
+<h1>V Bind </h1>
   <div id="app">
 
-  <h3>V-Bind</h3>
+   
    <button v-bind:title="title">Hover On It</button> OR <button :title="title">Hover On It</button>
+
+
   </div>
   <script>
     var app = new Vue({
