@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Class Binding</title>
-  <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+  <script src="vue2.5.13.js"></script>
   <style>
     .color-red
     {
