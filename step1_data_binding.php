@@ -8,7 +8,7 @@
 
 <h1>DATA BINDING </h1>
   <div id="app">
-    Hi Hello {{ message }}
+    Hi  {{ message }}
   </div>
   <script>
     var app = new Vue({
